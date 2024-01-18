@@ -124,8 +124,17 @@ svg{
     margin-left: 20px;
     color: #0c0b0b;
     padding: 12px 16px;
+    margin-top: 20px;
     background: #e1dddd;
     border-radius:10px 10px 10px 10px ;
+    color: var(--operator-message-text, #000);
+
+    /* chat/operator-body */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
 }
 .chatbox .outgoing{
     justify-content: flex-end;
